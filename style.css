@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .box {
+    display: flex;
+    width: 100px;
+    background-color: blueviolet;
+    margin: 30px 30px;
+  }
+  #cd {
+    flex: 2;
+  }
+  #ab {
+    flex: 4;
+  }
+  #badabox {
+    flex: 3;
+    background-color: blanchedalmond;
+  }
+  .parent {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: stretch;
+  }
